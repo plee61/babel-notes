@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit note</title>
+        <link href="/styles/style.css" rel="stylesheet">
+        <link href="/images/favicon.ico" rel="icon">
+    </head>
+    <BODY>
+        <div class='header'>
+            <div class="container">
+                <h1 class="header__title">Babel Notes</h1>
+                <h2 class="header__subtitle">Take Notes and Never Forget</h2>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="actions__container actions__container--spaced">
+                <a href='/index.html'>Home</a>
+                <label id='lastUpdated'></label>
+            </div>
+        </div>
+        <div class="container">     
+            <input id='note-title' class="title-input" placeholder="Note Title">
+            <div>
+                <textarea id='note-desc' class='body-input' placeholder="Enter note text"></textarea>
+            </div>                                        
+            <button id='remove-note' class='button button--secondary'>Remove Note</button>
+        </div>
+        <script src="/scripts/edit-bundle.js"></script>
+    </BODY>
+</html>
