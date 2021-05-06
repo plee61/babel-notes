@@ -19,6 +19,9 @@ document.querySelector('#remove-note').addEventListener('click', function () {
     deleteNote(noteId)
     location.href='/index.html'
 })
+document.querySelector('#home').addEventListener('click', function () {
+    location.href='/index.html'
+})
 window.addEventListener('storage',function(e){
     if (e.key==='notes'){
         initialiseEditPage(noteId)        

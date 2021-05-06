@@ -231,3 +231,8 @@ a {
 .empty-message {
     margin: 3.2rem 0;
 }
+.home-image {
+    width: 58px;
+    height: 58px;
+    border: none;
+}

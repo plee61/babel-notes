@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Edit note</title>
+        <title>Edit - Babel Notes</title>
         <link href="/styles/style.css" rel="stylesheet">
-        <link href="/images/favicon.ico" rel="icon">
+        <link href="/images/notes.jpg" rel="icon">
     </head>
     <BODY>
         <div class='header'>
@@ -13,8 +13,7 @@
             </div>
         </div>
         <div class="actions">
-            <div class="actions__container actions__container--spaced">
-                <a href='/index.html'>Home</a>
+            <div class="actions__container">
                 <label id='lastUpdated'></label>
             </div>
         </div>
@@ -22,8 +21,13 @@
             <input id='note-title' class="title-input" placeholder="Note Title">
             <div>
                 <textarea id='note-desc' class='body-input' placeholder="Enter note text"></textarea>
-            </div>                                        
-            <button id='remove-note' class='button button--secondary'>Remove Note</button>
+            </div>   
+        </div>
+        <div class="container">    
+            <div class="actions__container actions__container--spaced">                                 
+                <button id='home' ><img src="/images/return1600.png" class="home-image"></button> 
+                <button id='remove-note' class='button button--secondary'>Remove Note</button>
+            </div>
         </div>
         <script src="/scripts/edit-bundle.js"></script>
     </BODY>
