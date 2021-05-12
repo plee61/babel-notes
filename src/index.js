@@ -17,6 +17,12 @@ document.querySelector('#create').addEventListener('click',function(){
     const uId = createNote()
     location.href='edit.html#'+uId
 })
+document.querySelector("#btnSidepanel").addEventListener('click',function(){
+    document.querySelector("#myPanel").style.width = "250px";
+})
+document.querySelector("#sidepanel").addEventListener('click',function(){
+    document.querySelector("#myPanel").style.width = "0px";
+})
 window.addEventListener('storage',function(e){
     if (e.key==='notes'){
         displayNotes()

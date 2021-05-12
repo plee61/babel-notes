@@ -6,12 +6,19 @@
         <link href="images/notes.jpg" rel="icon">
     </head>
     <body>
-        <header class="header">
+        <div class="header menu__container actions__container--spaced actions__container--spaced">
+            <button id='btnSidepanel' class="openbtn">☰ Menu</button>   
+            <div id="myPanel" class="sidepanel">
+                <span id='sidepanel' class="closebtn">×</span>
+                <a href="https://babel-todo.netlify.app/">Todo App</a>
+                <a href="https://babel-notes.netlify.app/">Notes App</a>
+                <a href="https://babel-hangman.netlify.app/">Hangman Game</a>
+            </div>
             <div class="container">
                 <h1 class="header__title">Babel Notes</h1>
                 <h2 class="header__subtitle">Take Notes and Never Forget</h2>
             </div>
-        </header>
+        </div>
         <div class="actions">
             <div class="actions__container">
                 <input id="search-text" class="input" type="text" placeholder="Filter notes">
